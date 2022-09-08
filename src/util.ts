@@ -1,4 +1,3 @@
-import { getExplorerBaseUrl } from '@tonic-foundation/config';
 import { keyStores } from 'near-api-js';
 import { FinalExecutionOutcome } from 'near-api-js/lib/providers';
 import { homedir } from 'os';
@@ -22,7 +21,7 @@ export async function sleep(n: number) {
 }
 
 export function getExplorerUrl(network: 'mainnet' | 'testnet', type: 'account' | 'transaction', id: string) {
-  const baseUrl = getExplorerBaseUrl(network);
+  const baseUrl = network === 'mainnet' ? 'https://nearblocks.io' : 'https://testnet.nearblocks.io';
   if (type === 'account') {
     return `${baseUrl}/address/${id}`;
   }

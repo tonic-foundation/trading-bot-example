@@ -56,50 +56,63 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@tonic-foundation/config@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@tonic-foundation/config/-/config-0.0.2.tgz#93215cdfe200191c95931b118ddeecee6e667f6e"
-  integrity sha512-F0ILCpSBqPOSSTgMu3xIR0OTvPNmgJY1olUYwkpOSvcdlKFarz5C53svWDkVqkvxQNoXocMY5dfKJQ6BoyAeqg==
+"@tonic-foundation/config@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@tonic-foundation/config/-/config-1.0.0.tgz#5fc39b5e53ed19e9581ca5b55660939365c86452"
+  integrity sha512-utXfLcYEnNrOwFNGeUWwel7cgSLrUetKmUs2bqzCda9ji2XLjCbDoFyhFt+aLrwGdQVhbJYmAAj+tjX7jMp/gQ==
   dependencies:
-    near-api-js "^0.44.2"
+    near-api-js "^1.0.0"
 
-"@tonic-foundation/storage@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@tonic-foundation/storage/-/storage-0.0.2.tgz#94ce07e02a0826f578a6008f8e656d1708c03280"
-  integrity sha512-6QPEW5D0QiNoeDUxwijbRowjM4jkWD/gsFwBBYwjRvR0cJN1d6ixqlug/TuwaWu9pd2t4UUBGGBDQ5W1AQJyHw==
+"@tonic-foundation/storage@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@tonic-foundation/storage/-/storage-1.0.0.tgz#da4064278181290d458c80518775d0458ce32e7d"
+  integrity sha512-etz8UnoUPtCSH9CAd1p8aRq1K3a/O/Y/zROdaID28yADiNLcr8EyNljVbtCXUqeG/ANBAtacoe30zQ1FgfE/pw==
   dependencies:
-    "@tonic-foundation/utils" "0.0.2"
+    "@tonic-foundation/transaction" "1.0.0"
+    "@tonic-foundation/utils" "1.0.0"
     bn.js "^5.2.0"
-    near-api-js "^0.44.2"
+    near-api-js "^1.0.0"
 
-"@tonic-foundation/token@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@tonic-foundation/token/-/token-0.0.2.tgz#1c8e3e1f4f916f0adbb9cb4e2da9de43ac7d68a6"
-  integrity sha512-+KTVd1GG6iSYf7f+AR8sY/vf1eWN//rc6D4N38FITiO5dBwvTBDSzDh2DheHTtbtzyXny4vqIT7S6/rpzZA4GA==
+"@tonic-foundation/token@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@tonic-foundation/token/-/token-1.0.0.tgz#1c19fef213284f868840c328af3c8baf4d456149"
+  integrity sha512-qbVKYUF2cXdlCz3MK+e6Rllvs0q0O/tVcX6QADEZTHRME6g0rbPj7x2JmcGYnLItX8SdDUurxComqgEPseuexA==
   dependencies:
-    "@tonic-foundation/utils" "0.0.2"
-    near-api-js "^0.44.2"
+    "@tonic-foundation/transaction" "1.0.0"
+    "@tonic-foundation/utils" "1.0.0"
+    bn.js "^5.2.1"
+    near-api-js "^1.0.0"
 
-"@tonic-foundation/tonic@^0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@tonic-foundation/tonic/-/tonic-0.0.7.tgz#5a9237a2d33b7bea657f4014cd8002966544e4d4"
-  integrity sha512-V1J3E89UxcjlVmvPMdz8q59E5FB9lHE3C7+6D64uRTcLJgmwr8ytwHh1ijneIQImDmfmV/ab+C2T3KPSKiCAkQ==
+"@tonic-foundation/tonic@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@tonic-foundation/tonic/-/tonic-1.0.0.tgz#81cd3920ee71e5e3944997f03ee70fd352a794dd"
+  integrity sha512-t1w5tpcTAdo3Aghv05fSidndGKAPfLpVUgaErmC9gUx2q6yF5ZwdWJS4wplGC1zWguOB0+GwzwRliuvsEfpxqA==
   dependencies:
-    "@tonic-foundation/storage" "0.0.2"
-    "@tonic-foundation/token" "0.0.2"
-    "@tonic-foundation/utils" "0.0.2"
+    "@tonic-foundation/storage" "^1.0.0"
+    "@tonic-foundation/token" "^1.0.0"
+    "@tonic-foundation/transaction" "^1.0.0"
+    "@tonic-foundation/utils" "^1.0.0"
     bn.js "^5.2.0"
     isomorphic-ws "^4.0.1"
-    near-api-js "^0.44.2"
+    near-api-js "^1.0.0"
     ws "^8.5.0"
 
-"@tonic-foundation/utils@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@tonic-foundation/utils/-/utils-0.0.2.tgz#d96af5a315fed0eefa8316cc8f26426a33464020"
-  integrity sha512-rNMS+T9NsPPgk1/Tue+aZNBi3lrto+nqSt1RVnRwCj0vArRukdhMOo8mIsWUatCgoDJmlTKSMZdAfwcvw3Psag==
+"@tonic-foundation/transaction@1.0.0", "@tonic-foundation/transaction@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@tonic-foundation/transaction/-/transaction-1.0.0.tgz#2b6bf5ac48ed2d5e177ba7e2b8f88cd32e05fb18"
+  integrity sha512-kayGQEMeTBGXKLfPcFlmYU3YoiE5r3dIyvZN1E5owTlOcCvSSWIn2IoTXMK3pulrrDWO2+Ze8FRJogWKaSFkLQ==
+  dependencies:
+    "@tonic-foundation/utils" "1.0.0"
+    bn.js "^5.2.0"
+    near-api-js "^1.0.0"
+
+"@tonic-foundation/utils@1.0.0", "@tonic-foundation/utils@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@tonic-foundation/utils/-/utils-1.0.0.tgz#e3ac29d463b10d488feed6f04dcd1a17e2a5e656"
+  integrity sha512-VTOD6XAnHXKWaRB2yHTRIBePiyrAeC1imffm0Xrrwumjs6LXYSp6Z4cid/8jteoHUhhwgYrEplkRDh1oeWFPBg==
   dependencies:
     bn.js "^5.2.0"
-    near-api-js "^0.44.2"
+    near-api-js "^1.0.0"
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.9"
@@ -214,20 +227,15 @@ base-x@^3.0.2:
   dependencies:
     safe-buffer "^5.0.1"
 
-bn.js@5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-5.2.0.tgz#358860674396c6997771a9d051fcc1b57d4ae002"
-  integrity sha512-D7iWRBvnZE8ecXiLj/9wbxH7Tk79fAh8IHaTNq1RWRixsS02W+5qS+iE9yq6RYl0asXx5tw0bLhmT5pIfbSquw==
-
-bn.js@^5.2.0:
+bn.js@5.2.1, bn.js@^5.2.0, bn.js@^5.2.1:
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-5.2.1.tgz#0bc527a6a0d18d0aa8d5b0538ce4a77dccfa7b70"
   integrity sha512-eXRvHzWyYPBuB4NBy0cmYQjGitUrtqwbvlzP3G6VFnNRbsZQIxQ10PbKKHt8gZ/HW/D/747aDl+QkDqg3KQLMQ==
 
-borsh@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/borsh/-/borsh-0.6.0.tgz#a7c9eeca6a31ca9e0607cb49f329cb659eb791e1"
-  integrity sha512-sl5k89ViqsThXQpYa9XDtz1sBl3l1lI313cFUY1HKr+wvMILnb+58xpkqTNrYbelh99dY7K8usxoCusQmqix9Q==
+borsh@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/borsh/-/borsh-0.7.0.tgz#6e9560d719d86d90dc589bca60ffc8a6c51fec2a"
+  integrity sha512-CLCsZGIBCFnPtkNnieW/a8wmreDmfUtjU2m9yHrzPXIlNbqVs0AQrSatSG6vdNYUqdc83tkQi2eHfF98ubzQLA==
   dependencies:
     bn.js "^5.2.0"
     bs58 "^4.0.0"
@@ -736,13 +744,13 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
-near-api-js@^0.44.2:
-  version "0.44.2"
-  resolved "https://registry.yarnpkg.com/near-api-js/-/near-api-js-0.44.2.tgz#e451f68f2c56bd885c7b918db5818a3e6e9423d0"
-  integrity sha512-eMnc4V+geggapEUa3nU2p8HSHn/njtloI4P2mceHQWO8vDE1NGpnAw8FuTBrLmXSgIv9m6oocgFc9t3VNf5zwg==
+near-api-js@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/near-api-js/-/near-api-js-1.0.0.tgz#7aebc8e538071114ed242e6cce3b8fa956267691"
+  integrity sha512-OYItaQIYlKK27FG5PrqqtkTI8Vv9TEOCi7gXePYigS4o6WofXciAXNjr4sihDJ8Vzi6s7+eEkf3zTNP3042FBw==
   dependencies:
-    bn.js "5.2.0"
-    borsh "^0.6.0"
+    bn.js "5.2.1"
+    borsh "^0.7.0"
     bs58 "^4.0.0"
     depd "^2.0.0"
     error-polyfill "^0.1.3"

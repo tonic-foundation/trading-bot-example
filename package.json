@@ -18,8 +18,8 @@
     "typescript": "^4.6.2"
   },
   "dependencies": {
-    "@tonic-foundation/config": "^0.0.2",
-    "@tonic-foundation/tonic": "^0.0.7",
+    "@tonic-foundation/config": "^1.0.0",
+    "@tonic-foundation/tonic": "^1.0.0",
     "axios": "^0.26.0",
     "os": "^0.1.2",
     "ts-command-line-args": "^2.3.1"
